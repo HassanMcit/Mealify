@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&amp;family=Inter:wght@300;400;500;600;700;800&amp;display=swap"
+    />
+    <link rel="stylesheet" href="Style/all.min.css" />
+    <link rel="stylesheet" href="Style/bootstrap.min.css" />
+    <link rel="stylesheet" href="Style/style.css" />
+    <title>Mealify</title>
+  </head>
+  <body class="">
+    <main class="">
+      <!-------Start NavBar------->
+      <nav class="navbar navbar-expand-lg w-100 fixed-top">
+        <div class="container">
+          <div class="d-flex py-2 justify-content-between w-100">
+            <a class="navbar-brand fw-bold fs-2 logo" href="#"
+              >Mealify<span>.</span></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse top-100 w-100 start-0"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav mx-auto fs-5 mb-0">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#chefs">Chefs </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#gallery">Gallery </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#contact">Contact</a>
+                </li>
+              </ul>
+              <div class="mode dark-mode">
+                <i
+                  class="cursor-pointer fa-solid fa-moon fa-2x align-middle"
+                ></i>
+              </div>
+              <div class="mode light-mode d-none">
+                <i
+                  class="cursor-pointer fa-solid fa-sun fa-2x align-middle"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-------End NavBar------->
+      <!------------ Start Header-------->
+      <header id="home" class="home d-flex align-items-center">
+        <div class="container">
+          <div class="row gy-5 flex-wrap-reverse">
+            <div class="col-lg-7 col-12">
+              <div
+                class="caption w-50 mx-auto mx-lg-0 my-5 text-center text-lg-start"
+              >
+                <h2 class="fw-bold px-0 mb-0 display-3 font-amatic">
+                  Enjoy Your Healthy Delicious Food
+                </h2>
+                <p class="px-0 text-secondary fs-6">
+                  Sed autem laudantium dolores. Voluptatem itaque ea consequatur
+                  eveniet. Eum quas beatae cumque eum quaerat.
+                </p>
+              </div>
+              <div>
+                <div
+                  class="d-flex gap-4 justify-content-center justify-content-lg-start flex-wrap"
+                >
+                  <a href="#" class="book-btn">Book a Table</a>
+                  <a
+                    href="https://youtube.com"
+                    class="btn-video d-flex align-items-center fs-5"
+                  >
+                    <div
+                      class="icon d-flex justify-content-center align-items-center position-relative fs-6 me-1 rounded-circle"
+                    >
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                    Watch a Video</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-12">
+              <div class="home-img vibrate-1">
+                <img class="w-100" src="Style/images/hero-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!------------ End Header-------->
+      <!-- stert Section chefs -->
+      <section class="chefs" id="chefs">
+        <div class="container">
+          <div class="text-center py-5">
+            <div class="chef py-5">
+              <h2 class="fw-bold">CHEFS</h2>
+              <p class="display-4 font-amatic sec-p">
+                Our
+                <span class="special-span">Proffesional</span>
+                Chefs
+              </p>
+            </div>
+            <div class="row gy-5">
+              <div class="col-md-6 col-lg-4 col-12">
+                <div class="card text-center overflow-hidden">
+                  <img
+                    class="position-relative"
+                    src="Style/images/chefs-1.jpg"
+                    alt="Master Chef"
+                  />
+                  <div class="card-body">
+                    <h3 class="h5">Walter White</h3>
+                    <span class="text-secondary">Master Chef</span>
+                    <p class="text-secondary">
+                      Velit aut quia fugit et et. Dolorum ea voluptate vel
+                      tempore tenetur ipsa quae aut. Ipsum exercitationem iure
+                      minima enim corporis et voluptate.
+                    </p>
+                  </div>
+                  <ul class="icon-social position-absolute">
+                    <li>
+                      <a href="https://twitter.com" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://facebook.com" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://instagram.com" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://linkedin.com" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-12">
+                <div class="card text-center overflow-hidden">
+                  <img
+                    class="position-relative"
+                    src="Style/images/chefs-2.jpg"
+                    alt="Patissier"
+                  />
+                  <div class="card-body">
+                    <h3 class="h5">Sarah Jhonson</h3>
+                    <span class="text-secondary">Patissier</span>
+                    <p class="text-secondary">
+                      Quo esse repellendus quia id. Est eum et accusantium
+                      pariatur fugit nihil minima suscipit corporis. Voluptate
+                      sed quas reiciendis animi neque sapiente.
+                    </p>
+                  </div>
+                  <ul class="icon-social position-absolute">
+                    <li>
+                      <a href="https://twitter.com" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://facebook.com" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://instagram.com" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://linkedin.com" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-12">
+                <div class="card text-center overflow-hidden">
+                  <img
+                    class="position-relative"
+                    src="Style/images/chefs-3.jpg"
+                    alt="Cook"
+                  />
+                  <div class="card-body">
+                    <h3 class="h5">William Anderson</h3>
+                    <span class="text-secondary">Cook</span>
+                    <p class="text-secondary">
+                      Cook Vero omnis enim consequatur. Voluptas consectetur
+                      unde qui molestiae deserunt. Voluptates enim aut
+                      architecto porro aspernatur molestiae modi.
+                    </p>
+                  </div>
+                  <ul class="icon-social position-absolute">
+                    <li>
+                      <a href="https://twitter.com" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://facebook.com" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://instagram.com" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://linkedin.com" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Section chefs -->
+
+      <!-- start Section gallery -->
+      <section id="gallery" class="py-5 gallery-sec">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="fw-bold">Gallery</h2>
+            <p class="display-4 font-amatic sec-p">
+              Check
+              <span class="special-span">Our Gallery</span>
+            </p>
+          </div>
+
+          <div class="row gallery gy-4">
+            <div class="child child-1 col-md-6 col-lg-4 col-12">
+              <div class="item position-relative">
+                <img
+                  class="w-100 img-fluid"
+                  src="style/images/meal-1.jpg"
+                  alt="Pizza"
+                />
+                <div class="caption">
+                  <h3>Pizza</h3>
+                  <p>Hawaiian pizza with ham and pineapple</p>
+                </div>
+              </div>
+            </div>
+            <div class="child child-3 col-md-6 col-lg-4 col-12">
+              <div class="item position-relative">
+                <img
+                  class="w-100 img-fluid"
+                  src="style/images/meal-4.jpg"
+                  alt="Levitation pizza"
+                />
+                <div class="caption">
+                  <h3>Levitation pizza</h3>
+                  <p>Levitation pizza on black background.</p>
+                </div>
+              </div>
+            </div>
+            <div class="child child-5 col-md-6 col-lg-4 col-12">
+              <div class="item position-relative">
+                <img
+                  class="w-100 img-fluid"
+                  src="style/images/meal-2.jpg"
+                  alt="Beef steaks"
+                />
+                <div class="caption">
+                  <h3>Beef steaks</h3>
+                  <p>
+                    Tasty beef steaks flying above cast iron grate with fire
+                    flames.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="child child-4 col-md-6 col-lg-4 col-12">
+              <div class="item position-relative">
+                <img
+                  class="w-100 img-fluid"
+                  src="style/images/meal-7.jpg"
+                  alt="Frittata"
+                />
+                <div class="caption">
+                  <h3>Frittata</h3>
+                  <p>Frittata or potato pie in a ceramic plate</p>
+                </div>
+              </div>
+            </div>
+            <div class="child child-2 col-md-6 col-lg-4 col-12">
+              <div class="item position-relative">
+                <img
+                  class="w-100 img-fluid"
+                  src="style/images/meal-3.jpg"
+                  alt="Burger"
+                />
+                <div class="caption">
+                  <h3>Burger</h3>
+                  <p>grass fed bison hamburger with chips & beer</p>
+                </div>
+              </div>
+            </div>
+            <div class="child child-6 col-md-6 col-lg-4 col-12">
+              <div class="item position-relative">
+                <img
+                  class="w-100 img-fluid"
+                  src="style/images/meal-5.jpg"
+                  alt="Crispy Fried Chicken"
+                />
+                <div class="caption">
+                  <h3>Crispy Fried Chicken</h3>
+                  <p>
+                    Golden brown chicken legs with a crunchy coating and juicy
+                    meat
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="child child-7 col-md-6 col-lg-4 col-12">
+              <div class="item position-relative">
+                <img
+                  class="w-100 img-fluid"
+                  src="style/images/meal-6.jpg"
+                  alt=""
+                />
+                <div class="caption">
+                  <h3>Lyulya kebab</h3>
+                  <p>
+                    Tender and juicy skewers of ground lamb or beef, flavored
+                    with aromatic spices and herbs
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Section gallery -->
+
+      <!-- start Section content -->
+      <section id="contact" class="contact-sec py-5">
+        <div class="container">
+          <div class="text-center">
+            <div class="content">
+              <h2 class="fw-bold">CONTACT</h2>
+              <p class="display-4 font-amatic sec-p">
+                Need Help ?
+                <span class="special-span"> Contact Us</span>
+              </p>
+            </div>
+            <iframe
+              class="w-100"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.445785295115!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1681863129691!5m2!1sen!2sus"
+              style="
+                border: 0px;
+                --darkreader-inline-border-top: 0px;
+                --darkreader-inline-border-right: 0px;
+                --darkreader-inline-border-bottom: 0px;
+                --darkreader-inline-border-left: 0px;
+              "
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              data-darkreader-inline-border-top=""
+              data-darkreader-inline-border-right=""
+              data-darkreader-inline-border-bottom=""
+              data-darkreader-inline-border-left=""
+            >
+            </iframe>
+            <div class="row py-5 gy-3">
+              <div class="col-md-6">
+                <div
+                  class="contact-box h-100 d-flex flex-column align-items-center text-center text-md-start flex-md-row p-4"
+                >
+                  <div
+                    class="icon rounded-circle d-flex align-items-center justify-content-center me-md-3 mb-md-0 mb-3"
+                  >
+                    <i class="fa-regular fa-map"></i>
+                  </div>
+                  <div class="address-content ps-2">
+                    <h3 class="fs-5 fw-bold">Our Address</h3>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div
+                  class="contact-box h-100 d-flex flex-column align-items-center text-center text-md-start flex-md-row p-4"
+                >
+                  <div
+                    class="icon rounded-circle d-flex align-items-center justify-content-center me-md-3 mb-md-0 mb-3"
+                  >
+                    <i class="fa-regular fa-envelope"></i>
+                  </div>
+                  <div class="address-content ps-2">
+                    <h3 class="fs-5 fw-bold">Email Us</h3>
+                    <p>Email Us contact@example.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div
+                  class="contact-box h-100 d-flex flex-column align-items-center text-center text-md-start flex-md-row p-4"
+                >
+                  <div
+                    class="icon rounded-circle d-flex align-items-center justify-content-center me-md-3 mb-md-0 mb-3"
+                  >
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="address-content ps-2">
+                    <h3 class="fs-5 fw-bold">Call Us</h3>
+                    <p>+1 5589 55488 55</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div
+                  class="contact-box h-100 d-flex flex-column align-items-center text-center text-md-start flex-md-row p-4"
+                >
+                  <div
+                    class="icon rounded-circle d-flex align-items-center justify-content-center me-md-3 mb-md-0 mb-3"
+                  >
+                    <i class="fa-solid fa-share-nodes"></i>
+                  </div>
+                  <div class="address-content ps-2">
+                    <h3 class="fs-5 fw-bold">Opening Hours</h3>
+                    <p>Mon-Sat: 11AM - 23PM; Sunday : Closed</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form p-3">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="MohamedGamal"
+                    />
+                    <label for="floatingInput">Enter Your Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder=""
+                    />
+                    <label for="floatingInput">Enter Your Email </label>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder=""
+                    />
+                    <label for="floatingInput">subject </label>
+                  </div>
+                </div>
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    placeholder="Leave a comment here"
+                    id="floatingTextarea"
+                  ></textarea>
+                  <label for="floatingTextarea">Comments</label>
+                </div>
+                <div class="btn-box py-3">
+                  <button class="btn mx-auto rounded-3 px-4" type="submit">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Section content -->
+    </main>
+
+    <script src="JS/jquery-3.7.1.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
+
+<!-- 
+
+
+
+
+-->
